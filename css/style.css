@@ -1,0 +1,49 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.box{
+    margin: 0 188px;
+    }
+.logo{
+    /* width: 90%; */
+    /* float: center; */
+    /* margin: 0px 187px; */
+    /* justify-content: center; */
+    background:linear-gradient(to right,#212121,#525252);
+}
+#search{
+    width: 1000px;
+    height: 35px;
+}
+#btn{
+    padding: 0 100px;
+    height: 35px;
+    background-color: #424242;
+}
+.list ul li{
+    list-style: none;
+    /* display: inline-block; */
+    /* color:#fff; */
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 20px;
+}
+
+/* CSS */
+.download-button {
+    background: linear-gradient(to bottom,#f5544a,#860422); /* Red background */
+    color: white; /* White text */
+    border-radius: 45px; /* Rounded corners */
+    border: none; /* No border */
+    font-size: 16px; /* Text size */
+    display: inline-block; /* Allows setting width and height */
+    width: 280px; /* Width of the button */
+    cursor: pointer; /* Changes cursor to a hand icon */
+}
+footer ul li a{
+    list-style: none;
+    color: white;
+    text-decoration: none;
+}
