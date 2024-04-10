@@ -11,7 +11,7 @@
     </head>
     </head>
     <body>
-        <div class="box pb-1 shadow-sm bg-body-tertiary rounded">
+        <div class="container pb-1 shadow-sm bg-body-tertiary rounded">
             <!-- logo section start -->
             <div class="logo">
                 <img src="./img/logo.png" class="pt-3 pb-2 fs-5 ps-3" alt="">
@@ -29,9 +29,12 @@
                     </ol>
                 </nav>
                             
-                <div class="text-center">
-                    <input type="text" class="ms-5 mt-3 mb-4 p-2 border border-2 border-secondary" name="Search" placeholder="Search here..." id="search">
-                    <input type="button" id="btn" value="search" class="text-light fs-5">
+                <div class="text-center d-flex">
+                    <div class="input-group input-group-sm mt-3 mb-4 p-2">
+                        <input type="text" class="form-control shadow shadow-5 shadow-sm w-50 rounded-3" placeholder="Search here..." aria-label="Sizing example input" aria-describedby="inputGroup-sizing-sm">
+                        <input type="button" id="btn" value="search" class="text-light px-5 mx-5 fs-5 rounded-pill pb-2">
+                    </div>
+                    <!-- <input type="text" class="ms-5 mt-3 mb-4 p-2 border border-2 border-secondary" name="Search" placeholder="Search here..." id="search"> -->
                 </div>
                 <div>
                     <h5 class="text-center text-light py-3 fw-bolder" style="background-color: #424242;color: #dddddd;">KHALASI MP3 SONG DOWNLOAD PAGALWORLD.COM</h5>
@@ -41,7 +44,7 @@
             <div class="shadow-sm m-3  bg-body-tertiary rounded d-flex">
                 <!-- image sec start -->
                 <div class="col-md-4 p-2">
-                    <img src="./img/khalasi.jpg" width="470" height="370px" alt="">
+                    <img src="./img/khalasi.jpg" class="img-fluid" width="470" height="370px" alt="">
                 </div>
                 <!-- image sec end -->
                 
@@ -109,12 +112,14 @@
                 <h5 class="text-center py-2 fw-bolder" >Khalasi</h5>
             </div>
             <div class="download d-flex text-center">
-                <div class="download_btn d-flex">                    
+                <div class="col-lg-6 download_btn">                    
                     <a href="./audio/Khalasi_320kbps.mp3" class="download-button d-flex m-3 text-decoration-none" download="khalasi_320kbps">
                         <i class="fa-solid fa-download fa-xl bg-dark rounded-circle p-3 mx-2 my-2"></i>
                         <span class="px-2 py-2">Download 320 KBPS MP3<br>
                             Size 10.40 MB</span> 
                     </a>
+                </div>
+                <div  class="col-lg-6 download_btn">
                     <a href="./audio/Khalasi_190kbps.mp3" class="download-button d-flex m-3 text-decoration-none" download="khalasi_190kbps">
                         <i class="fa-solid fa-download fa-xl bg-dark rounded-circle p-3 mx-2 my-2"></i>
                         <span class="px-2 py-2">Download 190 KBPS MP3<br>
